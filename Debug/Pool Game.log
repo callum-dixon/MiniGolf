@@ -1,0 +1,21 @@
+﻿Pool Game.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowPosition@8 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowSize@8 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutInitDisplayMode@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutMainLoop@0 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutPostRedisplay@0 referenced in function "void __cdecl UpdateScene(int)" (?UpdateScene@@YAXH@Z)
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutSwapBuffers@0 referenced in function "void __cdecl RenderScene(void)" (?RenderScene@@YAXXZ)
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutTimerFunc@12 referenced in function "void __cdecl UpdateScene(int)" (?UpdateScene@@YAXH@Z)
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutIdleFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutKeyboardFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutSpecialFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutReshapeFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutDisplayFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutKeyboardUpFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutSpecialUpFunc@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutWireSphere@16 referenced in function "void __cdecl RenderScene(void)" (?RenderScene@@YAXXZ)
+Pool Game.obj : error LNK2019: unresolved external symbol __imp__glutIgnoreKeyRepeat@4 referenced in function _wmain
+Pool Game.obj : error LNK2019: unresolved external symbol __imp____glutInitWithExit@12 referenced in function _glutInit_ATEXIT_HACK@8
+Pool Game.obj : error LNK2019: unresolved external symbol __imp____glutCreateWindowWithExit@8 referenced in function _glutCreateWindow_ATEXIT_HACK@4
+freeglut.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\user\Desktop\Pool Game v3.0\Debug\Pool Game.exe : fatal error LNK1120: 18 unresolved externals
